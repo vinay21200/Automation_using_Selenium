@@ -15,8 +15,8 @@ public class IRCTCAutomationWithAlertHandling {
 
     @BeforeClass
     public void setUp() {
-        // Set up ChromeDriver path
-        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
+        // Set up ChromeDriver path 
+        System.setProperty("webdriver.chrome.driver", "C:\Users\vinay\chromedriver\chromedriver-win64\chromedriver.exe");
         
         // Initialize WebDriver
         driver = new ChromeDriver();
